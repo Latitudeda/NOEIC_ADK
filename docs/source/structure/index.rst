@@ -19,7 +19,7 @@ Assembly Design Kit (ADK) is a tool for designated users to generate layouts bas
 
     * Store the technology setting which matched the Pinghu design rules.
 
-* ``layers.lyp`` : This file allows layout tools e.g. Klayout to recognize the layer information when displaying gds file to the layout tool.
+* ``layers.lyp`` : This file allows layout tools e.g. KLayout to recognize the layer information when displaying gds file to the layout tool.
 
     .. image:: ../images/lyp.png
 
