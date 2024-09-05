@@ -1,0 +1,8 @@
+[build-system]
+requires = []
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "Pinghu ADK documentation"
+authors = [{ name = "kevinchen", email = "kevin_chen@Latitudeda.com" }]
+dynamic = ["version", "description"]
