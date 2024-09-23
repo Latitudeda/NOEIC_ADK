@@ -3,7 +3,7 @@ Standard_package_RF
 
 The Pinghu Standard_package_RF is a packaging solution for photonic integrated circuits (PICs). The following table shows the parameters of Pinghu Standard Package.
 
-    * Note that after using the StandardPackage_Quad a ``Standard_package_RF.log`` file is created in the current folder, send this file to **SJTU-Pinghu Institute of Intelligent Optoelectronics** first to discuss the possibilities.
+    * Note that after using the StandardPackage_RF a ``Standard_package_RF.log`` file is created in the current folder, send this file to **SJTU-Pinghu Institute of Intelligent Optoelectronics** first to discuss the possibilities.
 
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 | Parameters              | Description                                                                                                        |
@@ -28,11 +28,21 @@ The Pinghu Standard_package_RF is a packaging solution for photonic integrated c
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |pad_DC_RF_w              | True for DC and RF signals are on the west side at the same time and False for only RF signal on the west side.    |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
-|pad                      | For automated Bondpad placement.                                                                                   |
+|pad_DC                   | For automated single-row and double-rows Bondpad placement.                                                        |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
-|pad_number_DC            | Maximum number of pads per row: 24.                                                                                |
+|pad_DC_quad              | For automated 4-rows Bondpad placement.                                                                            |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_RF                   | For automated RF Bondpad placement.                                                                                |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_number_DC_n          | Maximum number of pads per row: 10.                                                                                |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_number_DC_s          | Maximum number of pads per row: 10.                                                                                |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_number_DC_w          | Maximum number of pads per row: 10.                                                                                |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |pad_interval_x           |Bond pad interval: minimum interval of 10 µm for single and double rows pads.                                       |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_interval_y           |Bond pad interval: minimum interval of 30 µm for pads between double rows.                                          |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |pad_dim_x                |Bond pad size: minimum length of 50 µm for single and double rows pads.                                             |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
@@ -62,6 +72,35 @@ The Pinghu Standard_package_RF is a packaging solution for photonic integrated c
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |d_DC_to_RF_w             | Distance between DC and RF Bond pad on the west side.                                                              |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|RF_channel_number_n      | RF channel number on the north side.                                                                               |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|RF_channel_number_s      | RF channel number on the south side.                                                                               |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|RF_channel_number_w      | RF channel number on the west side.                                                                                |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_interval_x_quad_rows |Bond pad interval: minimum interval of 20 µm for quadruple rows pads.                                               |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_interval_y_quad_rows |Bond pad interval: minimum interval of 30 µm for pads between quadruple rows.                                       |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_dim_x_quad_rows      |Bond pad size: minimum length of 70 µm for quadruple rows pads.                                                     |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_dim_y_quad_rows      |Bond pad size: minimum width of 70 µm for quadruple rows pads.                                                      |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|pad_to_edge_quad_rows    |Bond pad to edge: 50 µm.                                                                                            |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|multi_row_n              |True for multiple row of bond pad and False for single row of bond pad on the north side.                           |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|double_row_n             |True for double row of bond pad and False for quadruple row of bond pad on the north side.                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|multi_row_s              |True for multiple row of bond pad and False for single row of bond pad on the south side.                           |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|double_row_s             |True for double row of bond pad and False for quadruple row of bond pad on the south side.                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|multi_row_w              |True for multiple row of bond pad and False for single row of bond pad on the west side.                            |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+|double_row_w             |True for double row of bond pad and False for quadruple row of bond pad on the west side.                           |
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
+
 
 An example of the use of Edge Couplers.
 ********************************************
