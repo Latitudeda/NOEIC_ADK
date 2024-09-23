@@ -25,7 +25,7 @@ The Pinghu Standard_package_RF is a packaging solution for photonic integrated c
 |pad_DC_RF_n              |True for DC and RF signals are on the north side at the same time.                                                  |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |pad_DC_RF_s              |True for DC and RF signals are on the south side at the same time.                                                  |
-+-------------------------+---------------------------------------------------------------------------------------------------------------- ----+
++-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |pad_DC_RF_w              |True for DC and RF signals are on the west side at the same time.                                                   |
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 |pad_DC                   | For automated single-row and double-rows Bondpad placement.                                                        |
