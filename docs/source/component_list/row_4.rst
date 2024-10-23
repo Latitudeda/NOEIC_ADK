@@ -47,8 +47,12 @@ An example of the use of Edge Couplers.
 .. image:: ../images/eg_ec_quad.png
 
 
-An example of the use of Grating Couplers.
+An example of the use of Grating Couplers with Vertical FA.
 ********************************************
-.. image:: ../images/eg_gc_quad.png
+.. image:: ../images/eg_gc_quad_v.png
+
+An example of the use of Grating Couplers with Horizontal Angle Polished FA.
+********************************************
+.. image:: ../images/eg_gc_quad_h.png
 
 
