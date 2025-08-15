@@ -1,3 +1,3 @@
 metrics.py
 ==============
-To define the metrics used in Pinghu ADK.
+To define the metrics used in NOEIC ADK.

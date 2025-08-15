@@ -1,4 +1,4 @@
-Pinghu ADK Documentation
+NOEIC ADK Documentation
 ====================================
 
 .. toctree::

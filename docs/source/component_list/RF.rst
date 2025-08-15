@@ -1,9 +1,9 @@
 Standard_package_RF
 ############################
 
-The Pinghu Standard_package_RF is a packaging solution for photonic integrated circuits (PICs). The following table shows the parameters of Pinghu Standard Package.
+The NOEIC Standard_package_RF is a packaging solution for photonic integrated circuits (PICs). The following table shows the parameters of NOEIC Standard Package.
 
-    * Note that after using the StandardPackage_RF a ``Standard_package_RF.log`` file is created in the current folder, send this file to **SJTU-Pinghu Institute of Intelligent Optoelectronics** first to discuss the possibilities.
+    * Note that after using the StandardPackage_RF a ``Standard_package_RF.log`` file is created in the current folder, send this file to **SJTU-NOEIC Institute of Intelligent Optoelectronics** first to discuss the possibilities.
 
 +-------------------------+--------------------------------------------------------------------------------------------------------------------+
 | Parameters              | Description                                                                                                        |

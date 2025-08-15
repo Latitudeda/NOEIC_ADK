@@ -1,9 +1,9 @@
 ADK structure
 ======================
 
-Assembly Design Kit (ADK) is a tool for designated users to generate layouts based on Pinghu Standard Packages design rules.
+Assembly Design Kit (ADK) is a tool for designated users to generate layouts based on NOEIC Standard Packages design rules.
 
-``PingHu_ADK1p0_Latitudeda`` package includes three subfolders: ``examples``, ``packages``, and ``technology``.
+``NOEIC_ADK1p0_Latitudeda`` package includes three subfolders: ``examples``, ``packages``, and ``technology``.
 
 * ``examples``
 
@@ -13,11 +13,11 @@ Assembly Design Kit (ADK) is a tool for designated users to generate layouts bas
 
 * ``packages``
 
-    * Store the packaging setting for Pinghu Standard Packages.
+    * Store the packaging setting for NOEIC Standard Packages.
 
 * ``technology``
 
-    * Store the technology setting which matched the Pinghu design rules.
+    * Store the technology setting which matched the NOEIC design rules.
 
 * ``layers.lyp`` : This file allows layout tools e.g. KLayout to recognize the layer information when displaying gds file to the layout tool.
 

@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'Pinghu ADK Documentation'
-copyright = '2024, Latitudeda.com'
+project = 'NOEIC ADK Documentation'
+copyright = '2025, Latitudeda.com'
 author = 'Latitudeda.com'
 
 release = '0.1'

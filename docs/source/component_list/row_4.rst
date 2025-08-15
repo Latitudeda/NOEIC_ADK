@@ -1,9 +1,9 @@
 StandardPackage_Quad
 ############################
 
-The Pinghu StandardPackage_Quad is a packaging solution for photonic integrated circuits (PICs). The following table shows the parameters of Pinghu Standard Package.
+The NOEIC StandardPackage_Quad is a packaging solution for photonic integrated circuits (PICs). The following table shows the parameters of NOEIC Standard Package.
 
-    * Note that after using the StandardPackage_Quad a ``Standard_package_quad.log`` file is created in the current folder, send this file to **SJTU-Pinghu Institute of Intelligent Optoelectronics** first to discuss the possibilities.
+    * Note that after using the StandardPackage_Quad a ``Standard_package_quad.log`` file is created in the current folder, send this file to **SJTU-NOEIC Institute of Intelligent Optoelectronics** first to discuss the possibilities.
 
 +-------------------------+------------------------------------------------------------------------------------------------------+
 | Parameters              | Description                                                                                          |
